@@ -72,7 +72,7 @@ if __name__ == '__main__':
             kp_value = get_first_kp_index(url)
             if kp_value is not None:
                 print(f"Kp value: {kp_value}")
-                send_email(f"AURORA ALERT: {kp_value} Kp", f"The Kp index has reached {kp_value}!")
+                send_email(f"AURORA ALERT: {kp_value} Kp", f".")
             else:
                 print("No significant Kp value found.")
         else:
