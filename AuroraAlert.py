@@ -69,7 +69,7 @@ if __name__ == '__main__':
     url = 'https://softservenews.com/'
     while True:
         if is_within_notification_period(LATITUDE, LONGITUDE):
-            kp_value = get_first_kp_index(URL)
+            kp_value = get_first_kp_index(url)
             if kp_value is not None:
                 print(f"Kp value: {kp_value}")
                 send_email(f"AURORA ALERT: {kp_value} Kp", f"The Kp index has reached {kp_value}!")
