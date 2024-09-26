@@ -8,3 +8,4 @@ Aurora Alert is a Python application designed to monitor geomagnetic activity an
 - **Email Notifications:** Sends email alerts when the Kp index reaches a threshold that suggests visibility of the aurora borealis.
 - **Customizable Alert Threshold:** Users can set the Kp index threshold for alerts based on their local visibility conditions.
 - **Automated Timing:** Only sends alerts during nighttime hours, adjusting for local sunrise and sunset times to ensure alerts are relevant.
+- **24/7 Monitoring with Task Scheduler**: Set up Task Scheduler on Windows to run the script continuously in the background.
